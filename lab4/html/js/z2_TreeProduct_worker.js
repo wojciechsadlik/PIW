@@ -83,17 +83,18 @@ function solution(A,B) {
 
 function generateMapOfBridges(A,B,bridgeCount) {
 	let bridgesMap = new Map();
-	let nodeCount = bridgeCount + 1;
-	for (let i = 0; i < nodeCount; ++i) {
-		let iNodeBridges = [];
-		for (let j = 0; j < bridgeCount; ++j) {
-			if (A[j] == i)
-				iNodeBridges.push(j);
-			else if (B[j] == i)
-				iNodeBridges.push(j);
-		}
+	for (let bridge = 0; bridge < bridgeCount; ++bridge) {
+		let Anode = A[bridge];
+		let Bnode = B[bridge];
+		if (bridgesMap.has(Anode))
+			bridgesMap.get(Anode).push(bridge);
+		else
+			bridgesMap.set(Anode, [bridge]);
 
-		bridgesMap.set(i, iNodeBridges);
+		if (bridgesMap.has(Bnode))
+			bridgesMap.get(Bnode).push(bridge);
+		else
+			bridgesMap.set(Bnode, [bridge]);
 	}
 
 	return bridgesMap;
