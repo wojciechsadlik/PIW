@@ -12,4 +12,4 @@ Zadanie 2: Złożony algorytm.
 Rozwiązanie zadania:
 https://app.codility.com/programmers/lessons/91-tasks_from_indeed_prime_2016_challenge/tree_product/
 
-Napisać jako funkcję i uruchomić jako worker. Dopisać funkcje losujące dane o zadanym rozmiarze.
+Napisać jako funkcję i uruchomić jako worker. Dopisać funkcję losującą dane o zadanym rozmiarze.
