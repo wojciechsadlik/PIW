@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>zadanie1</title>
+</head>
+<body>
+	<h1>Zadanie 1</h1>
+	<label for="queueLength">Maksymalna długość kolejki:</label>
+	<input type="number" id="queueLength" min="0" value="3"><br>
+	<label for="processingTimeM">Średni czas obsługi[ds]:</label>
+	<input type="number" id="processingTimeM" step="0.1" min="0" value="40"><br>
+	<label for="processingTimeV">Wariancja czasu obsługi[ds]:</label>
+	<input type="number" id="processingTimeV" step="0.1" min="0" value="10"><br>
+	<label for="clientRate">Częstotliwość generowania klientów (na sekundę):</label>
+	<input type="number" id="clientRate" step="0.1" min="0" value="2"><br>
+	<button id="set">Set</button>
+	<button id="reset">Reset</button>
+	<p id="queue">Kolejka: </p>
+	<p id="servedCount">Obsłużonych: 0</p>
+	<p id="rejectedCount">Odrzuconych: 0</p>
+	<p id="Astate">A: wolny</p>
+	<p id="Bstate">B: wolny</p>
+	<p id="Cstate">C: wolny</p>
+	<a href="index.html">index</a>
+	<script src="js/z1.js"></script>
+</body>
+</html>
