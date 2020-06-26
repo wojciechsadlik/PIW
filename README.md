@@ -1,2 +1,2 @@
 # PIW
-Małe projekty związane z kursem "Programowanie Interfejsów Webowych"
+Małe projekty związane z kursem "Programowanie Interfejsów Webowych".
