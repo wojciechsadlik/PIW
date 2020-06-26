@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>zadanie1</title>
+	<style>
+		#editor {
+			width: 800px;
+			height: 600px;
+			border-style: solid;
+		}
+		#menu {
+			float:right;
+			list-style-type: none;
+			background-color: lightgrey;
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+</head>
+<body>
+	<h1>Zadanie 1</h1>
+	<div id="editor">
+		<canvas id="canvas"></canvas>
+		<ul id="menu">
+			<li>
+				<label for="shape">Kształt:</label>
+				<select id="shape">
+					<option value="rect">Prostokąt</option>
+					<option value="circle">Okrąg</option>
+				</select>
+			</li>
+			<li><input type="checkbox" id="filled"><label for="filled">Wypełniony</label></li>
+			<li><input type="checkbox" id="brush"><label for="brush">"Pędzel"</label></li>
+			<li><input type="number" id="brushSize" style="width:50px;"><label for="brushSize">Wielkość pędzla</label></li>
+			<li>
+				<label for="color">Kolor:</label>
+				<input type="color" id="color">
+			</li>
+			<li><button id="clear">Wyczyść</button></li>
+		</ul>
+	</div>
+	<p>Naciśnij i przeciągnij, aby narysować kształt.</p>
+	<a href="index.html">index</a>
+	<script src="js/z1.js"></script>
+</body>
+</html>
