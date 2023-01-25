@@ -8,4 +8,4 @@ Little vanilla JavaScript projects made for "Programowanie Interfejsów Webowych
 
 ### lab4 - using workers
 - z1 - service desk simulation - generating clients at random time to be served by three clerks, each client requires random time to be served
-- z2 - complex algorithm - solution for https://app.codility.com/programmers/lessons/91-tasks_from_indeed_prime_2016_challenge/tree_product/ to be launched by a worker
+- z2 - complex algorithm - solution to https://app.codility.com/programmers/lessons/91-tasks_from_indeed_prime_2016_challenge/tree_product/ to be launched by a worker
