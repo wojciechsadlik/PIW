@@ -1,6 +1,6 @@
 # Web API programming
 
-Little vanilla JavaScript projects made for "Programowanie Interfejsów Webowych" (Web API Programming CS course on Wroclaw University of Science and Technology).
+Little vanilla JavaScript projects made for "Programowanie Interfejsów Webowych" (Web APIs Programming CS course on Wroclaw University of Science and Technology).
 
 ### lab3 - JS and HTML Canvas
 - z1 - simple graphic editor that allows drawing circles and rectangles filled or edges only
